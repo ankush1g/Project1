@@ -1,0 +1,158 @@
+<html>
+    <head>
+        
+            <meta charset="utf-8">#descibing the charset of html page
+            <meta name="description" content="this is a html page">#describing page
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <Meta name="robot" content="index,follow">
+        <title>
+            Contact      
+        </title>
+        <style>
+            body{
+                background-image: url("bc.jpg");
+            }
+            *{
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: normal;
+            }
+            Header{
+               
+                text-align: center;
+                font-weight: 100;
+            }
+            #contact{
+                color:aqua;
+                font-size: 30px;
+            }
+            #para{
+                color: azure;
+                font-size: 20px;
+                line-height: 25px;
+            }
+            aside{
+                
+                text-align: center;
+                font-weight: 100;
+                float: left;
+                width: 40%;
+                margin-right: 2%;
+            }
+            #address{
+                color:aqua;
+                font-size: 25px;
+                font-weight: 100;
+                text-decoration: solid;
+            }
+            #desc{
+                color: azure;
+                font-size: 15px;
+                line-height: 25px;
+            }
+           #form{
+               text-align: center;
+               
+           }
+           input{
+               margin-bottom: 10px;
+               padding: 5px;
+               width: auto;
+               
+           }
+           label{
+                margin-bottom: 10px;
+                padding: 5px;
+                width: auto;
+                color:hsla(147, 94%, 75%, 0.957);
+           }
+           #leg{
+              
+               color:aqua;
+           }
+           fieldset{
+               height: 380px;
+               width:52%;
+               font:left;
+               padding-top: 100px;
+           }
+           .S{
+               color: black;
+               text-shadow: 20px;
+           }
+           img{
+               height:25px;
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 id="Contact">
+                    Contact Us
+                </h1>
+                <p id="Para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vero cumque ipsam aliquid, doloremque ut, excepturi
+                    corporis
+                    <br>
+                    voluptas rem esse nulla fuga similique et,
+                    voluptate porro quod debitis ullam ea deleniti.
+                </p>
+            </div>
+        </header>
+        <aside>
+            <div id="f">
+                <div id="Div1">
+                    <img src="OIP.jpg" id="Add">
+                    <h3 id="Address">
+                        Address
+                    </h3>
+                    <h4 id="Desc">
+                        1330,G Street ,<br>XYZ<br>12545
+                    </h4>
+                </div>
+                <div>
+                    <img src="OIP.jpg" />
+                    <h3 id="Address">
+                        Contact Number
+                    </h3>
+                    <h4 id="Desc">
+                        +91-00000-00000
+                    </h4>
+                </div>
+                <div>
+                    <img src="OIP.jpg"/>
+                    <h3 id="Address">
+                        Email
+                    </h3>
+                    <h4 id="Desc">
+                    ABC96@gmail.com
+                    </h4>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div id="f">
+            <form method="get" action="#" id="Form">
+                <fieldset id="Field">
+                    <legend id="Leg">
+                        Send Message
+                    </legend>
+                    <label for="FullName" id="L">FullName: </label>
+                    <input type="text" id="FullName" placeholder="Full Name" name="FullName">
+                    <br>
+                    <label for="Email" id="L" >Email_Id: </label>
+                    <input type="email" id="Email" placeholder="Email_id" name="Email">
+                    <br>
+                    <label for="Message" id="L"> Message: </label>
+                    <input type="textarea" id="Message" placeholder="Type your message.......">
+                    <br>
+                    <input type="Submit" id="Submit" class="S">
+                    <input type="reset" id="Clear" class="S" placeholder="Reset">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    </body>
+</html>
